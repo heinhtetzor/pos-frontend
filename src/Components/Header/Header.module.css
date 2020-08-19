@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	height: 50px;
+	justify-content: space-between;
+	align-content: center; 
+	border-bottom: 1px solid var(--bgColorGray);
+	padding: 0px 8px;
+	box-shadow: 0px 6px 10px var(--bgColorGray);
+	/* Gradient code */
+	background: #2980b9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome */
+
+
+}
+.title {
+	padding: 5px 0;
+}
+.title:hover {
+	
+}
+.links {
+	height: 100px;
+}
+.links li {
+	display: inline;
+	cursor: pointer;
+}
+.links li:hover {
+	background-color: var(--bgColorLightBlue);
+	color: var(--textColorBlue);
+	font-weight: bolder;
+}

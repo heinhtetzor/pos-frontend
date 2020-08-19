@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+  --textColorBlue: #1967d2;
+  --bgColorLightBlue: #e8f0fe;
+  --textColorGray: #5f6368;
+  --bgColorGray: #e3e4e6;
+  --bgColorBlue: rgb(26, 115, 232);
+  --poppinFont: 'Poppins', sans-serif;
+  --robotoFont: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--robotoFont); 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

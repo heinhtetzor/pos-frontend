@@ -1,0 +1,22 @@
+.currentCategory {
+  color: #1967d2;
+  background: #e8f0fe;
+  pointer-events: none;
+  font-weight: 900;
+}
+.categoryList {
+  padding-left: 0px;
+  width: 15%;
+  color: #5f6368;
+}
+.categoryList li {
+  list-style: none;
+  padding: 10px 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.categoryList li:hover {
+  background-color: #e3e4e6;
+}

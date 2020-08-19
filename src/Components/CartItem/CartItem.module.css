@@ -1,0 +1,27 @@
+.cartItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--bgColorGray);
+}
+.cartItemQuantity {
+	display: flex;
+}
+.qtyBtn {
+	border: 1px solid var(--bgColorGray);
+	background-color: var(--bgColorGray);
+	height: 1.5rem;
+	width: 2rem;
+	text-align: center;
+	cursor: pointer;
+}
+.qtyBtn:hover {
+	
+}
+.cartItemName {
+	width: 160px;
+}
+.cartItemPrice {
+	display: flex;
+	flex-grow: 1;
+}

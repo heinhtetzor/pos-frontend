@@ -1,0 +1,9 @@
+.posViewWrapper {
+	margin-top: 8px;
+}
+.posView {
+  display : flex;
+  justify-content : space-between;
+  width : 100%;
+  padding : 10px 0px;
+}

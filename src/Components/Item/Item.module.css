@@ -1,0 +1,15 @@
+.item {
+  width: 120px;
+  border: 1px solid var(--bgColorGray);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  margin: 3px 6px;
+  box-shadow: 0px 0px 10px var(--bgColorGray);
+  user-select: none;
+}
+.item:hover {
+  box-shadow: 0px 5px 20px var(--bgColorGray);
+}
+
+

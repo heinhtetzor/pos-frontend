@@ -1,0 +1,45 @@
+.historyView {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.pageTitle {
+    font-family: var(--poppinFont);
+}
+.container {
+    display: flex;
+}
+.heading {
+    font-family: var(--poppinFont);
+    background-color: #4158D0;
+    color: white;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100%;
+    height: 70px;
+    font-weight: 900;
+    font-size: 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.headingText {
+    margin-left: 20px;
+}
+.orderList {
+    width: 40%;
+    max-height: 900px;
+    background-color: #fff;
+    box-shadow: 0px 14px 10px var(--bgColorGray);
+    border: 1px solid var(--bgColorGray);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+.orderDetail {
+    width: 60%;
+    min-height: 500px;
+    box-shadow: 0px 14px 10px var(--bgColorGray);
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid var(--bgColorGray);
+}
